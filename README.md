@@ -25,7 +25,7 @@ X-IDS/
 ├── backend/                 # FastAPI application
 ├── frontend/                # Next.js dashboard
 ├── ml/                      # Offline ML pipeline
-│   ├── data/raw/            # Put official UNSW-NB15 CSVs here
+│   ├── data/raw/            # UNSW-NB15 CSVs here
 │   ├── data/processed/      # Generated datasets
 │   ├── artifacts/           # Models/scalers/metadata
 │   ├── reports/             # Generated evaluation reports
@@ -45,10 +45,6 @@ Download the official UNSW-NB15 training and testing CSV files and place them as
 ml/data/raw/UNSW_NB15_training-set.csv
 ml/data/raw/UNSW_NB15_testing-set.csv
 ```
-
-Do not commit dataset files to Git.
-
-## ML quick start
 
 ### 1. Create the Python environment
 
